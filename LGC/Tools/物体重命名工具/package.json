@@ -1,25 +1,25 @@
 {
-  "name": "com.lgcchina.suffixtool",       // 唯一包名（反向域名格式）
-  "displayName": "LGC 物体重命名工具",    // VCC 中显示的名称（中文/英文均可）
-  "version": "1.0.0",                      // 版本号（遵循语义化：主版本.次版本.补丁）
+  "name": "com.lgcchina.suffixtool",
+  "displayName": "LGC 物体重命名工具",
+  "version": "1.0.0",
   "description": "快速给 VRChat 场景中的物体批量添加/修改后缀的编辑器工具",
   "author": {
-    "name": "你的名称/团队名",
-    "url": "https://github.com/LgcChina"   // 你的仓库地址
+    "name": "LgcChina",
+    "url": "https://github.com/LgcChina"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/LgcChina/tools.git",
-    "directory": "packages/com.lgcchina.suffixtool"  // 包在仓库中的相对路径
+    "directory": "packages/com.lgcchina.suffixtool"
   },
   "vpm": {
-    "repo": "https://LgcChina.github.io/tools/vpm.json",  // 后续生成的 VPM 仓库索引地址
-    "categories": [ "Tools/Editor" ]                     // VCC 中分类（可选：Worlds/Editor、Avatar/Editor 等）
+    "repo": "https://LgcChina.github.io/tools/vpm.json",
+    "categories": [ "Tools/Editor" ]
   },
   "dependencies": {
-    "com.vrchat.base": "3.6.0",            // 依赖的 VRC 基础包版本（按需适配）
-    "com.unity.editorcoroutines": "1.0.0"  // 若脚本用到协程，可加此依赖（可选）
+    "com.vrchat.base": "3.6.0",
+    "com.unity.editorcoroutines": "1.0.0"
   },
-  "unity": "2022.3",                       // 适配的 Unity 版本（VRC 主流 2022.3）
-  "unityRelease": "22f1"                   // Unity 小版本（可选，匹配 VRC 推荐版本）
+  "unity": "2022.3",
+  "unityRelease": "22f1"
 }
