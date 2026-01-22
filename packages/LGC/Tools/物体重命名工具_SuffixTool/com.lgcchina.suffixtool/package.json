@@ -10,15 +10,14 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/LgcChina/tools.git",
-    "directory": "packages/com.lgcchina.suffixtool"
+    "directory": "packages/LGC/Tools/物体重命名工具_SuffixTool/com.lgcchina.suffixtool"
   },
   "vpm": {
     "repo": "https://LgcChina.github.io/tools/vpm.json",
-    "categories": [ "Tools/Editor" ]
+    "categories": ["Tools/Editor"]
   },
   "dependencies": {
-    "com.vrchat.base": "3.6.0",
-    "com.unity.editorcoroutines": "1.0.0"
+    "com.vrchat.base": "3.6.0"
   },
   "unity": "2022.3",
   "unityRelease": "22f1"
