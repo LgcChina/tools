@@ -13,7 +13,6 @@
     "directory": "packages/LGC/Tools/物体重命名工具_SuffixTool/com.lgcchina.suffixtool"
   },
   "vpm": {
-    "repo": "https://LgcChina.github.io/tools/vpm.json",
     "categories": ["Tools/Editor"]
   },
   "dependencies": {
