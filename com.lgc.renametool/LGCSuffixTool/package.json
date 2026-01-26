@@ -1,16 +1,16 @@
 {
   "name": "com.lgc.renametool",
-  "displayName": "LGC 物体重命名工具",
   "version": "1.0.0",
   "unity": "2022.3",
-  "description": "一款轻量高效的 Unity 物体批量重命名工具，支持自定义命名规则、批量前缀/后缀添加、序号自动递增，适配 VRChat 项目开发流程",
-  "keywords": ["Unity", "VRChat", "重命名", "批量处理", "编辑器工具"],
+  "displayName": "LGC 物体重命名工具",
+  "hideInEditor": false,
+  "gitDependencies": {},
+  "vpmDependencies": {},
+  "legacyFolders": {},
+  "legacyFiles": {},
   "author": {
     "name": "LGC",
     "url": "https://github.com/LgcChina"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LgcChina/tools.git"
-  }
+  "description": "Unity/VRChat 物体批量重命名工具，支持前缀/后缀添加、序号自增、批量替换，轻量编辑器工具"
 }
